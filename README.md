@@ -17,7 +17,10 @@ plugin.
 
 Il tourne **sur la machine qui fait tourner le jeu**, ne parle qu'au jeu, à OBS,
 au navigateur et au Stream Deck de cette machine, et **n'envoie rien nulle
-part**.
+part** — sauf une question anonyme à ce dépôt-ci : au lancement puis toutes les
+six heures, il demande à GitHub quelle est la dernière release, pour afficher un
+bandeau quand une version plus récente existe. Rien de ta machine n'y est joint ;
+l'option `--no-update-check` la coupe.
 
 ## Télécharger
 
@@ -82,9 +85,11 @@ choisie dans le logiciel Stream Deck cache l'état du HUD sur la touche.
 
 ## Mettre à jour
 
-Le HUD ne prévient pas qu'une version sort : regarde la
+Quand une version plus récente est publiée, **un bandeau vert le dit** sous
+l'en-tête du HUD ; « Voir la release » ouvre sa page dans ton navigateur,
+« Plus tard » le cache jusqu'au prochain lancement. Sinon, la
 [page des releases](https://github.com/terry-afk/vincecosa-race-hud/releases).
-Ferme le HUD, télécharge le nouvel exe, renomme-le `race-hud.exe` et **remplace**
+Le HUD n'installe rien lui-même : ferme le HUD, télécharge le nouvel exe, renomme-le `race-hud.exe` et **remplace**
 l'ancien dans ton dossier : ton épingle, ta mise en page et tes logos suivent. Le
 plugin Stream Deck ne se réinstalle pas à chaque version ; si une touche dit
 « plugin périmé », double-clic sur celui de la dernière release.

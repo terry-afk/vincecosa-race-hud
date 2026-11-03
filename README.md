@@ -12,10 +12,10 @@ qui se bat avec qui, le journal de ce qui vient de se passer (dépassements,
 accrochages, tête-à-queue, sorties de piste), la caméra du jeu mise sur une
 voiture d'un clic, un moment revu puis le retour au direct. Il sert aussi
 l'**habillage d'antenne à OBS** (le classement, le tour du circuit en 3D), qui se
-commande en direct depuis le **pupitre d'antenne** du HUD, à droite du
-classement ; une **régie** garde les réglages d'avant la course (lignes, colonne,
-jauges onboard), à mettre en dock si tu veux. Il se pilote aussi depuis un
-**Stream Deck** avec son plugin.
+commande en direct depuis le HUD — l'antenne et la classe de la tour dans la
+colonne de gauche, les duels à droite du classement — et depuis un **Stream
+Deck** avec son plugin (la colonne, les jauges onboard, l'écran de classement) ;
+une **régie** garde le nombre de lignes de la tour, à mettre en dock si tu veux.
 
 Il tourne **sur la machine qui fait tourner le jeu**, ne parle qu'au jeu, à OBS,
 au navigateur et au Stream Deck de cette machine, et **n'envoie rien nulle
@@ -71,9 +71,9 @@ tape pas :
   **« Contrôler l'audio via OBS »** coché — sans ça, sa musique part au stream
   par l'audio du bureau dès que la source est visible quelque part, aperçu
   compris ;
-- **régie** : les réglages d'avant la course, dans un onglet ou un dock d'OBS
-  (_Docks → Docks Internet personnalisés…_) — le direct, lui, se commande dans le
-  HUD, au pupitre à droite du classement ;
+- **régie** : le nombre de lignes de la tour, réglé avant la course, dans un
+  onglet ou un dock d'OBS (_Docks → Docks Internet personnalisés…_) — le direct,
+  lui, se commande dans le HUD et au Stream Deck ;
 - **mise en page** : un navigateur ordinaire, jamais OBS.
 
 ## Le Stream Deck

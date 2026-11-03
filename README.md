@@ -11,9 +11,11 @@ Un outil pour **commenter une course Le Mans Ultimate** : le classement en direc
 qui se bat avec qui, le journal de ce qui vient de se passer (dépassements,
 accrochages, tête-à-queue, sorties de piste), la caméra du jeu mise sur une
 voiture d'un clic, un moment revu puis le retour au direct. Il sert aussi
-l'**habillage d'antenne à OBS** (le classement, le tour du circuit en 3D) et une
-**régie** à mettre en dock, et se pilote depuis un **Stream Deck** avec son
-plugin.
+l'**habillage d'antenne à OBS** (le classement, le tour du circuit en 3D), qui se
+commande en direct depuis le **pupitre d'antenne** du HUD, à droite du
+classement ; une **régie** garde les réglages d'avant la course (lignes, colonne,
+jauges onboard), à mettre en dock si tu veux. Il se pilote aussi depuis un
+**Stream Deck** avec son plugin.
 
 Il tourne **sur la machine qui fait tourner le jeu**, ne parle qu'au jeu, à OBS,
 au navigateur et au Stream Deck de cette machine, et **n'envoie rien nulle
@@ -69,7 +71,9 @@ tape pas :
   **« Contrôler l'audio via OBS »** coché — sans ça, sa musique part au stream
   par l'audio du bureau dès que la source est visible quelque part, aperçu
   compris ;
-- **régie** : OBS, _Docks → Docks Internet personnalisés…_ ;
+- **régie** : les réglages d'avant la course, dans un onglet ou un dock d'OBS
+  (_Docks → Docks Internet personnalisés…_) — le direct, lui, se commande dans le
+  HUD, au pupitre à droite du classement ;
 - **mise en page** : un navigateur ordinaire, jamais OBS.
 
 ## Le Stream Deck
@@ -78,10 +82,11 @@ Il faut le logiciel Stream Deck **7.1 ou plus récent** (au premier lancement du
 plugin, laisse-lui Internet : il peut avoir à télécharger ce dont le plugin a
 besoin). **Double-clic** sur le `.streamDeckPlugin` : une catégorie **« Race HUD »**
 apparaît dans la liste des actions — **aucune touche ne se pose toute seule**.
-Glisse « Revoir le départ » et « Arrêter la série » sur deux touches, et
-« Commande du HUD » pour le reste (une colonne du classement, l'écran de
-classement, l'anneau des pédales). **Garde l'icône par défaut** : une icône
-choisie dans le logiciel Stream Deck cache l'état du HUD sur la touche.
+Glisse « Départ (on/off) » sur une touche — un appui lance le replay des
+départs, un appui pendant la série l'arrête —, et « Commande du HUD » pour le
+reste (une colonne du classement, l'écran de classement, les jauges onboard).
+**Garde l'icône par défaut** : une icône choisie dans le logiciel Stream Deck
+cache l'état du HUD sur la touche.
 
 ## Mettre à jour
 
